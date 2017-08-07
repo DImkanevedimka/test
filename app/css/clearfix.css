@@ -1,0 +1,4 @@
+.clearfix:after, .clearfix:before {
+  content: "";
+  clear: both;
+  display: block; }

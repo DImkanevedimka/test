@@ -1,0 +1,118 @@
+$PT : PT Serif
+
+header
+	position: relative
+
+.header_right
+	padding-left: 500px
+	display: flex
+	justify-content: space-between
+	align-items: center
+	margin-bottom: 20px
+
+.header-mobile
+	display: none
+
+.search
+	display: flex
+	align-items: center
+	border: 1px solid rgba(0, 0, 1, 0.27)
+	color: #552213
+	background-color: #e2dfda
+	border-radius: 14px
+	input[type="text"]
+		min-height: 37px
+		font-family: $PT
+		font-size: 14px
+		box-sizing: border-box
+		background-color: #e2dfda
+		border: none
+		padding-left: 17px
+		padding-right: 10px
+		border-radius: 14px
+		outline: none
+		width: 207px
+	input[type="image"]
+		box-sizing: border-box
+		background-color: #e2dfda
+		border: none
+		outline: none
+		padding-right: 7px
+		border-radius: 14px
+
+.phone
+	color: #552213
+	font-family: $PT
+	font-size: 24px
+
+.social_networks
+	a
+		color: #888888
+		display: inline-block
+	i
+		font-size: 20px
+		padding: 0 5px
+	a:hover i.fa-twitter
+		color: #41abe1
+	a:hover i.fa-facebook
+		color: #4867aa
+	a:hover i.fa-pinterest-p
+		color: #bd081c
+
+
+.logo	
+	position: absolute
+	left: -60px
+	top: -55px
+	z-index: 1
+	a
+		display: block
+
+.header_menu
+	margin-bottom: 12px
+	padding-left: 187px
+	padding-right: 55px
+	
+.header_menu_list
+	display: flex
+	justify-content: space-between
+	font-size: 17px
+	li
+		a
+			font-family: $PT
+			display: block
+			text-decoration: none
+			color: #888
+			border: 2px solid #fff
+			padding-bottom: 2px
+	li:hover a
+		color: #552213
+		border-bottom: 2px solid #552213
+	.header_menu_sub-link:hover .header_menu_droplist
+		display: block
+		li
+			a
+				color: #fff
+				border: none
+	li.header_menu_sub-link
+		a
+			border: 2px solid #fff
+
+.header_menu_sub-link
+	position: relative
+	padding-bottom: 5px
+
+.header_menu_droplist
+	z-index: 1
+	display: none
+	position: absolute
+	top: 25px
+	width: 230px
+	li
+		background: #552213
+		a
+			font-family: $PT
+			font-size: 16px
+			padding: 8px 11px
+	li:hover a
+		background: #704538

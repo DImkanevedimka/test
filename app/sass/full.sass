@@ -1,0 +1,98 @@
+@import header
+@import footer
+@import content
+
+
+$PT : PT Serif
+
+body
+	padding-top: 30px
+	background: url(../img/background.png)
+	background-size: cover
+
+.wrapper
+	width: 1000px
+	margin: 0 auto
+	overflow: hidden
+	padding-top: 25px
+	padding-right: 40px
+	padding-left: 40px
+	padding-bottom: 66px
+	background: linear-gradient(to bottom, #ffffff 29%, #e5e1dc 29%)
+
+.footer_class
+	background: #FFF
+
+@media screen and (max-width: 767px) and (min-width:320px)
+	.social_networks
+		display: none
+	.header_menu
+		display: none
+	.wrapper
+		width: 100%
+		max-width: 767px
+		min-width: 320px
+		padding: 0
+		text-align: center
+		height: auto
+	.search
+		display: none
+	body
+		background: none
+	.logo
+		left: -50px
+		top: -35px
+	.slider-slider
+		.slider_text
+			padding: 25px 0
+			font-size: 30px
+			width: 100%
+		.slider_circle
+			display: none
+		.slider
+			.slider_item
+				img
+					width: 100%
+	.container
+		padding: 0
+	.content
+		padding: 0
+		width: 100%
+		flex-direction: column
+	.content_item2
+		padding-top: 20px
+	.slidebar
+		float: none
+	.second-logo
+		padding: 20px 0
+	.header_right
+		padding-left: 250px
+		padding-top: 50px
+	.subsribe
+		width: auto
+		margin: 0 15px
+		text-align: left
+		padding: 10px 35px
+		flex-wrap: wrap
+		input
+			margin-top: 10px
+	.feedback
+		width: auto
+		padding: 0 15px 15px 15px
+		text-align: left
+		display: inline-block
+		img
+			float: left
+			padding-right: 10px
+	.feedback-text
+		font-size: 14px
+		width: auto
+		padding: 0
+		p
+			width: auto
+	footer
+		flex-direction: column
+		text-align: left
+		padding-left: 20px
+		div
+			padding: 20px 0
